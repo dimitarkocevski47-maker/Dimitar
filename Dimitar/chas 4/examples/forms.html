@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Forms</title>
+  </head>
+  <body>
+    <form action="test" method="get">
+      <label for="username">Username: </label>
+      <input type="text" name="username" id="username" />
+
+      <label for="password">Password: </label>
+      <input type="password" name="password" id="password" />
+
+      <label for="comments">Comments: </label>
+      <textarea name="comments" id="comments" cols="20" rows="5">
+        Enter your comments...
+      </textarea>
+
+      <hr />
+
+      <input type="text" placeholder="Search..." />
+
+      <hr />
+
+      <label for="phone">Phone number: </label>
+      <input
+        type="text"
+        name="phone-namber"
+        id="phone"
+        placeholder="+389 7x xxx xxx"
+      />
+
+      <p>Please select your favorite genre:</p>
+      <input type="radio" name="genre" id="rock" value="rock" />
+      <label for="rock">Rock</label>
+      <input type="radio" name="genre" id="pop" value="pop" />
+      <label for="pop">Pop</label>
+      <input type="radio" name="genre" id="jazz" value="jazz" />
+      <label for="jazz">Jazz</label>
+
+      <hr />
+
+      <p>Please select your favorite music services:</p>
+
+      <input
+        type="checkbox"
+        name="service"
+        id="itunes"
+        value="itunes"
+        checked
+      />
+      <label for="itunes">iTunes</label>
+      <input type="checkbox" name="service" id="lastfm" value="lastfm" />
+      <label for="lastfm">Last.fm</label>
+      <input type="checkbox" name="service" id="spotify" value="spotify" />
+      <label for="spotify">Spotify</label>
+    </form>
+  </body>
+</html>
