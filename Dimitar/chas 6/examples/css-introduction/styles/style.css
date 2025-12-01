@@ -1,0 +1,85 @@
+/* universal selector */
+
+* {
+  font-family: fantasy;
+}
+
+/* type selector */
+
+main {
+  background-color: antiquewhite;
+}
+
+p {
+  font-size: 22px;
+}
+
+/* class selector */
+
+.yellow-background {
+  background-color: yellow !important;
+}
+
+.blue-text {
+  color: blue;
+}
+
+/* id selector */
+
+#links {
+  font-size: 14px;
+}
+
+/* child selector */
+
+section > p {
+  background-color: darkcyan;
+}
+
+section > p > span {
+  font-size: 32px;
+}
+
+/* descendant selector */
+
+main li {
+  color: darkred;
+}
+
+/* adjacent sibling selector */
+
+h1 + span {
+  font-size: 18px;
+}
+
+/* general sibling selector */
+
+h1 ~ ul {
+  background-color: yellowgreen;
+}
+
+.red-background {
+  background-color: red;
+}
+
+/* RGB color */
+
+.rgb-bg-color {
+  background-color: rgb(50, 145, 121);
+}
+
+.rgb-bg-color {
+  background-color: rgba(50, 145, 121, 0.5);
+}
+
+/* HEX color */
+
+.hex-bg-color {
+  background-color: #32f991;
+}
+
+/* HSL color */
+
+.hsl-text-color {
+  background-color: hsl(0, 0%, 78%);
+}
